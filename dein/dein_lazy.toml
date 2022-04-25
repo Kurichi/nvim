@@ -1,0 +1,14 @@
+[[plugins]]
+repo = 'cespare/vim-toml'
+
+[[plugins]]
+repo = 'vim-jp/vimdoc-ja'
+
+[[plugins]]
+repo = 'ayu-theme/ayu-vim'
+
+[[plugins]]
+repo = 'morhetz/gruvbox'
+hook_add = '''
+  let g:gruvbox_contrast_dark = 'hard'
+'''
