@@ -37,9 +37,10 @@ if dein#load_state('/home/kurichi/.cache/dein')
   call dein#end()
 
   runtime ~/.config/nvim/config/ddc.vim
+
 endif
 
-autocmd VimEnter * NERDTree
+" autocmd VimEnter * NERDTree
 
 " Required:
 filetype plugin indent on
