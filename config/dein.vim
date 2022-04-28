@@ -1,4 +1,3 @@
-"dein Scripts-----------------------------
 if &compatible
   set nocompatible               " Be iMproved
 endif
@@ -9,7 +8,7 @@ set runtimepath+=/home/kurichi/.cache/dein/repos/github.com/Shougo/dein.vim
 " Required:
 if dein#load_state('/home/kurichi/.cache/dein')
   " XOG base directory compartible
-  let g:dein#cache_directory = $HOME . '/cache/dein'
+  let g:dein#cache_directory = $HOME . '/.cache/dein'
   
   call dein#begin('/home/kurichi/.cache/dein/')
 
@@ -18,7 +17,7 @@ if dein#load_state('/home/kurichi/.cache/dein')
 
   " Let dein manage dein
   " Required:
-  call dein#add('/home/kurichi/.cache/dein//repos/github.com/Shougo/dein.vim')
+  call dein#add('/home/kurichi/.cache/dein/repos/github.com/Shougo/dein.vim')
 
   " Add or remove your plugins here like this:
   "call dein#add('Shougo/neosnippet.vim')
@@ -36,7 +35,6 @@ if dein#load_state('/home/kurichi/.cache/dein')
   " Required:
   call dein#end()
 
-  runtime ~/.config/nvim/config/ddc.vim
 
 endif
 
@@ -51,4 +49,3 @@ if dein#check_install()
   call dein#install()
 endif
 
-"End dein Scripts-------------------------

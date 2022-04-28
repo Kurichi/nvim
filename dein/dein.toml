@@ -25,3 +25,4 @@ repo = 'rhysd/vim-operator-user'
 
 [[plugins]]
 repo = 'rhysd/vim-clang-format'
+
